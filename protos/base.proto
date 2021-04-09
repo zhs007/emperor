@@ -1,0 +1,14 @@
+syntax = "proto3";
+package emperor;
+option go_package = "github.com/zhs007/emperor/emperorpb";
+
+// UserGameInfo - user game infomation
+message UserGameInfo {
+    int32 money = 1;        // 金钱
+    int32 gameTurns = 2;    // 游戏回合数
+    int32 army = 3;         // 军队
+    int32 people = 4;       // 人民
+    int32 noble = 5;        // 贵族
+    int32 bureaucracy = 6;  // 官僚
+}
+
